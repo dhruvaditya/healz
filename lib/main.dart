@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'screens/home_view.dart';
+import 'components/app_drawer.dart';
+import 'screens/make_appointment.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,6 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Healz(),
     );
   }
